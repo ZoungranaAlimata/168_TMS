@@ -1,0 +1,23 @@
+{
+  "name": "168_tms",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZoungranaAlimata/168_TMS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZoungranaAlimata/168_TMS/issues"
+  },
+  "homepage": "https://github.com/ZoungranaAlimata/168_TMS#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
