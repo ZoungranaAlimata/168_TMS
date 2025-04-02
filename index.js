@@ -1,12 +1,17 @@
-const mongoose = require("mongoose")
 const express = require('express')
-const app = express()
+const mongoose = require("mongoose")
+const Student = require("./models/Student.model");
 
+const app = express();
 app.use(express.json());
 
 app.get('/', function (req, res) {
   res.send('Hello World')
 })
+
+app.get("/api/students", async (req,res) =>{ const Students = await Student.find();
+  res.send(students);
+ });
 
 app.listen(4000, ()=> {
 
