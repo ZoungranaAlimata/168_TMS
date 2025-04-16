@@ -64,3 +64,4 @@ mongoose.connect("mongodb+srv://zoungranaa766:ZURq7uwTIfxYWrmG@cluster-1.w43yfj7
   console.log("Failed to connect to Mongo", err);
 
 });
+mongoos
